@@ -1,0 +1,58 @@
+{
+  "method": "POST",
+  "path": "/v1/chat/completions",
+  "url": "https://api.perceptleap.com/v1/chat/completions",
+  "request_body": {
+    "model": "gpt-5.4-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Describe this image in three words."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Example.jpg/64px-Example.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "max_completion_tokens": 64
+  },
+  "started_at": "2026-05-25T08:11:09.150139+00:00",
+  "stream": false,
+  "status": 400,
+  "reason": "Bad Request",
+  "headers": {
+    "date": "Mon, 25 May 2026 08:11:10 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "111",
+    "connection": "close",
+    "server": "cloudflare",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-request-id": "6f22c7cc-1144-4b05-a514-01fa5d50d417",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=j660Lh3D88ySnVJsLrMwfEzB7MCE71iB3FoIjuIu4LGiKNvoQy0r94se%2BSdYx0YDWdclBUcSb6L1DuBM9ZUQhb9ckoLZulYkOSNlaIkfpl5IqfkUpHDaqjji3Xtz4VXGK4NzJCYI\"}]}",
+    "cf-ray": "a013115aed8f4bb4-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": {
+    "kind": "json",
+    "json": {
+      "error": {
+        "message": "Error while downloading file. Upstream status code: 400.",
+        "type": "invalid_request_error"
+      }
+    }
+  },
+  "elapsed_ms": 1270,
+  "name": "chat_vision_remote_url",
+  "classification": "client_error"
+}

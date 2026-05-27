@@ -1,0 +1,1379 @@
+{
+  "base_url": "https://api.perceptleap.com",
+  "selected_model": "gpt-5.4-mini",
+  "prior_response_id": "resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c",
+  "prior_chat_id": "resp_0afd2d4ee9660d94016a1402bfcfd08199bfcf8f07e37143f3",
+  "results": [
+    {
+      "method": "GET",
+      "path": "/v1/models",
+      "url": "https://api.perceptleap.com/v1/models",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:25.529044+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:26 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "0aca79f6-05a4-42bc-a29f-2dd81a9d414f",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yZHJtf747uqAmPUwS9299daU3EnS8Hg9d0Cr9vywDrvV6wgzT7cBEEuxjYW5mUgJKEEWw7GcF2xSRSte4AEEa5TZaXThxV8P5ewvLk1ZAwZxav46xGBpB5OyQk0rwia4Zc6bfmLa\"}]}",
+        "cf-ray": "a0130be4bb65e9e0-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "data": [
+            {
+              "id": "chatgpt-4o-latest",
+              "type": "model",
+              "display_name": "chatgpt-4o-latest",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "codex-auto-review",
+              "type": "model",
+              "display_name": "codex-auto-review",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-0125",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-0125",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-1106",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-1106",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-16k",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-16k",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4",
+              "type": "model",
+              "display_name": "gpt-4",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4-turbo",
+              "type": "model",
+              "display_name": "gpt-4-turbo",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4-turbo-preview",
+              "type": "model",
+              "display_name": "gpt-4-turbo-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1",
+              "type": "model",
+              "display_name": "gpt-4.1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1-mini",
+              "type": "model",
+              "display_name": "gpt-4.1-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1-nano",
+              "type": "model",
+              "display_name": "gpt-4.1-nano",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.5-preview",
+              "type": "model",
+              "display_name": "gpt-4.5-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o",
+              "type": "model",
+              "display_name": "gpt-4o",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-2024-08-06",
+              "type": "model",
+              "display_name": "gpt-4o-2024-08-06",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-2024-11-20",
+              "type": "model",
+              "display_name": "gpt-4o-2024-11-20",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-audio-preview",
+              "type": "model",
+              "display_name": "gpt-4o-audio-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-mini",
+              "type": "model",
+              "display_name": "gpt-4o-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-mini-2024-07-18",
+              "type": "model",
+              "display_name": "gpt-4o-mini-2024-07-18",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-realtime-preview",
+              "type": "model",
+              "display_name": "gpt-4o-realtime-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2",
+              "type": "model",
+              "display_name": "gpt-5.2",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-2025-12-11",
+              "type": "model",
+              "display_name": "gpt-5.2-2025-12-11",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-chat-latest",
+              "type": "model",
+              "display_name": "gpt-5.2-chat-latest",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-pro",
+              "type": "model",
+              "display_name": "gpt-5.2-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-pro-2025-12-11",
+              "type": "model",
+              "display_name": "gpt-5.2-pro-2025-12-11",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.3-codex",
+              "type": "model",
+              "display_name": "gpt-5.3-codex",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.3-codex-spark",
+              "type": "model",
+              "display_name": "gpt-5.3-codex-spark",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4",
+              "type": "model",
+              "display_name": "gpt-5.4",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4-2026-03-05",
+              "type": "model",
+              "display_name": "gpt-5.4-2026-03-05",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4-mini",
+              "type": "model",
+              "display_name": "gpt-5.4-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.5",
+              "type": "model",
+              "display_name": "gpt-5.5",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-1",
+              "type": "model",
+              "display_name": "gpt-image-1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-1.5",
+              "type": "model",
+              "display_name": "gpt-image-1.5",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-2",
+              "type": "model",
+              "display_name": "gpt-image-2",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1",
+              "type": "model",
+              "display_name": "o1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-mini",
+              "type": "model",
+              "display_name": "o1-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-preview",
+              "type": "model",
+              "display_name": "o1-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-pro",
+              "type": "model",
+              "display_name": "o1-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3",
+              "type": "model",
+              "display_name": "o3",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3-mini",
+              "type": "model",
+              "display_name": "o3-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3-pro",
+              "type": "model",
+              "display_name": "o3-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o4-mini",
+              "type": "model",
+              "display_name": "o4-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            }
+          ],
+          "object": "list"
+        }
+      },
+      "elapsed_ms": 934,
+      "name": "x_api_key_models",
+      "classification": "success"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/models",
+      "url": "https://api.perceptleap.com/v1/models",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:26.461512+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:27 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "3e652152-1f7f-4eec-a299-9df2d080e86e",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=R4RI%2F2KadeXiifoAf%2FDrmbKQ2zLxKm2Zys1ELNL758awWilwH7x9o7IVc9UUNlYCMY1NR5wRPTtqF5CXF8KCMQlETYYBpsXzsweeSgcepCIc4M74KQgt0b7YF1ixIQDX8lu7txrY\"}]}",
+        "cf-ray": "a0130bea6f515654-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "data": [
+            {
+              "id": "chatgpt-4o-latest",
+              "type": "model",
+              "display_name": "chatgpt-4o-latest",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "codex-auto-review",
+              "type": "model",
+              "display_name": "codex-auto-review",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-0125",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-0125",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-1106",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-1106",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-3.5-turbo-16k",
+              "type": "model",
+              "display_name": "gpt-3.5-turbo-16k",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4",
+              "type": "model",
+              "display_name": "gpt-4",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4-turbo",
+              "type": "model",
+              "display_name": "gpt-4-turbo",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4-turbo-preview",
+              "type": "model",
+              "display_name": "gpt-4-turbo-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1",
+              "type": "model",
+              "display_name": "gpt-4.1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1-mini",
+              "type": "model",
+              "display_name": "gpt-4.1-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.1-nano",
+              "type": "model",
+              "display_name": "gpt-4.1-nano",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4.5-preview",
+              "type": "model",
+              "display_name": "gpt-4.5-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o",
+              "type": "model",
+              "display_name": "gpt-4o",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-2024-08-06",
+              "type": "model",
+              "display_name": "gpt-4o-2024-08-06",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-2024-11-20",
+              "type": "model",
+              "display_name": "gpt-4o-2024-11-20",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-audio-preview",
+              "type": "model",
+              "display_name": "gpt-4o-audio-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-mini",
+              "type": "model",
+              "display_name": "gpt-4o-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-mini-2024-07-18",
+              "type": "model",
+              "display_name": "gpt-4o-mini-2024-07-18",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-4o-realtime-preview",
+              "type": "model",
+              "display_name": "gpt-4o-realtime-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2",
+              "type": "model",
+              "display_name": "gpt-5.2",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-2025-12-11",
+              "type": "model",
+              "display_name": "gpt-5.2-2025-12-11",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-chat-latest",
+              "type": "model",
+              "display_name": "gpt-5.2-chat-latest",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-pro",
+              "type": "model",
+              "display_name": "gpt-5.2-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.2-pro-2025-12-11",
+              "type": "model",
+              "display_name": "gpt-5.2-pro-2025-12-11",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.3-codex",
+              "type": "model",
+              "display_name": "gpt-5.3-codex",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.3-codex-spark",
+              "type": "model",
+              "display_name": "gpt-5.3-codex-spark",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4",
+              "type": "model",
+              "display_name": "gpt-5.4",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4-2026-03-05",
+              "type": "model",
+              "display_name": "gpt-5.4-2026-03-05",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.4-mini",
+              "type": "model",
+              "display_name": "gpt-5.4-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-5.5",
+              "type": "model",
+              "display_name": "gpt-5.5",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-1",
+              "type": "model",
+              "display_name": "gpt-image-1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-1.5",
+              "type": "model",
+              "display_name": "gpt-image-1.5",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "gpt-image-2",
+              "type": "model",
+              "display_name": "gpt-image-2",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1",
+              "type": "model",
+              "display_name": "o1",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-mini",
+              "type": "model",
+              "display_name": "o1-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-preview",
+              "type": "model",
+              "display_name": "o1-preview",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o1-pro",
+              "type": "model",
+              "display_name": "o1-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3",
+              "type": "model",
+              "display_name": "o3",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3-mini",
+              "type": "model",
+              "display_name": "o3-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o3-pro",
+              "type": "model",
+              "display_name": "o3-pro",
+              "created_at": "2024-01-01T00:00:00Z"
+            },
+            {
+              "id": "o4-mini",
+              "type": "model",
+              "display_name": "o4-mini",
+              "created_at": "2024-01-01T00:00:00Z"
+            }
+          ],
+          "object": "list"
+        }
+      },
+      "elapsed_ms": 877,
+      "name": "x_goog_api_key_models",
+      "classification": "success"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/models",
+      "url": "https://api.perceptleap.com/v1/models",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:27.338854+00:00",
+      "stream": false,
+      "status": 401,
+      "reason": "Unauthorized",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:28 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "c4e17f97-fb7e-45fe-b0ee-92f0c537d396",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tBnY4DvMYU5ezbuCA2Bc4RwGvlfGMbVbL3p3tSMcD9q3rPpSF7KfNvlUbKQhDyHJYZZ9j%2B8c6t%2FSbXXNBOs6Jbuh1PRIOPiHTW2Y5WsZnyGDixJMzyV%2B2HExFoWFoDrjVxGcPP84\"}]}",
+        "cf-ray": "a0130bf0381975a3-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "code": "INVALID_API_KEY",
+          "message": "Invalid API key"
+        }
+      },
+      "elapsed_ms": 936,
+      "name": "invalid_bearer_models",
+      "classification": "auth_or_permission_error"
+    },
+    {
+      "method": "POST",
+      "path": "/messages",
+      "url": "https://api.perceptleap.com/messages",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Reply OK"
+          }
+        ],
+        "max_tokens": 24
+      },
+      "started_at": "2026-05-25T08:07:28.275463+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:28 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "cache-control": "no-cache",
+        "content-security-policy": "default-src 'self'; script-src 'self' 'nonce-nOQ7go2IqAWbiDK5MNh/Sg==' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://*.stripe.com https://static.airwallex.com https://checkout.airwallex.com https://static-demo.airwallex.com https://checkout-demo.airwallex.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.airwallex.com https://checkout.airwallex.com https://static-demo.airwallex.com https://checkout-demo.airwallex.com; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https:; frame-src https://challenges.cloudflare.com https://*.stripe.com https://checkout.airwallex.com https://checkout-demo.airwallex.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+        "vary": "accept-encoding",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "819c60bb-0e0e-4c8b-a703-21c1eba4e2ba",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4exEFrond7b5JltoRjNMUIgDsXtaL0DeKUKb52u3WYAVRMrteZR0ysXRqAy5aNhKJKNVxbDxELYXEOeQEb2Br7TR4%2Fh2FMWQ7rJ02%2B29m4uFx%2Bi1ErZurweleUshwSyj%2BW7Q4Gq3\"}]}",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "a0130bf5b80e08fa-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 59426,
+        "preview": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>perceptleap.ai - AI API Gateway</title>\n    <script type=\"module\" crossorigin src=\"/assets/index-ky7IQ7Qn.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor-vue-C1PG35FK.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor-i18n-CS7xxe6p.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor-misc-CdI0Ak46.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/vendor-misc-DB0Q8XAf.css\">\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-unxYkoMM.css\">\n  <script nonce=\"nOQ7go2IqAWbiDK5MNh/Sg==\">window.__APP_CONFIG__={\"registration_enabled\":true,\"email_verify_enabled\":false,\"registration_email_suffix_whitelist\":[\"@qq.com\",\"@gmail.com\"],\"promo_code_enabled\":true,\"password_reset_enabled\":false,\"invitation_code_enabled\":false,\"totp_enabled\":true,\"login_agreement_enabled\":false,\"login_agreement_mode\":\"modal\",\"login_agreement_updated_at\":\"2026-03-31\",\"login_agreement_revision\":\"0eff189d66e0af4e\",\"login_agreement_documents\":[{\"id\":\"terms\",\"title\":\"服务条款\",\"content_md\":\"\"},{\"id\":\"usage-policy\",\"title\":\"使用政策\",\"content_md\":\"\"},{\"id\":\"supported-regions\",\"title\":\"支持的国家和地区\",\"content_md\":\"\"},{\"id\":\"service-specific-terms\",\"title\":\"服务特定条款\",\"content_md\":\"\"}],\"turnstile_enabled\":false,\"turnstile_site_key\":\"\",\"site_name\":\"perceptleap.ai\",\"site_logo\":\"data:image/png;base64,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",
+        "truncated": true
+      },
+      "elapsed_ms": 1216,
+      "name": "messages_alias_probe",
+      "classification": "success"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/responses",
+      "url": "https://api.perceptleap.com/v1/responses",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "input": "Reply OK",
+        "max_output_tokens": 24,
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "store": false
+      },
+      "started_at": "2026-05-25T08:07:29.491964+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:30 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "1382",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "a229b595-72a0-43fa-ba83-b8f261224fc5",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FBrIXy7AEju1YuIUBNkhFAPdV8gZS586i9RLlo9MR4B424YBnlU1tEefAQt56v52dxedPU%2ByN4CFgK%2FQgvoGJh1DyEX678QKcweff0dWEbO4wHZ0uepxrxu1rKU32osyRi1FmK1T\"}]}",
+        "cf-ray": "a0130bfd4fa9b103-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "id": "resp_0d645118625a1f37016a1403425ebc8198876b15d56659509d",
+          "object": "response",
+          "created_at": 1779696450,
+          "status": "completed",
+          "background": false,
+          "completed_at": 1779696450,
+          "error": null,
+          "frequency_penalty": 0.0,
+          "incomplete_details": null,
+          "instructions": "You are a helpful coding assistant.",
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "moderation": null,
+          "output": [
+            {
+              "type": "message",
+              "role": "assistant",
+              "content": [
+                {
+                  "type": "output_text",
+                  "text": "OK"
+                }
+              ]
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0.0,
+          "previous_response_id": null,
+          "prompt_cache_key": "ce31140e-21af-424e-80bd-2aa73c09d7b0",
+          "prompt_cache_retention": "24h",
+          "reasoning": {
+            "context": "current_turn",
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": "user-pD4NwKC5wveTDFxZh6N298Et",
+          "service_tier": "default",
+          "store": false,
+          "temperature": 1.0,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tool_usage": {
+            "image_gen": {
+              "input_tokens": 0,
+              "input_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "total_tokens": 0
+            },
+            "web_search": {
+              "num_requests": 0
+            }
+          },
+          "tools": [],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 19,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 5,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 24
+          },
+          "user": null,
+          "metadata": {}
+        }
+      },
+      "elapsed_ms": 1668,
+      "name": "responses_with_temperature_top_p",
+      "classification": "success"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/responses",
+      "url": "https://api.perceptleap.com/v1/responses",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "input": "Reply OK",
+        "max_tokens": 24,
+        "store": false
+      },
+      "started_at": "2026-05-25T08:07:31.161222+00:00",
+      "stream": false,
+      "status": 502,
+      "reason": "Bad Gateway",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:31 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "content-length": "6435",
+        "connection": "close",
+        "retry-after": "60",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+        "referrer-policy": "same-origin",
+        "x-frame-options": "SAMEORIGIN",
+        "server": "cloudflare",
+        "cf-ray": "a0130c07b89675b7-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 6435,
+        "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n<title>perceptleap.com | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Bad gateway</span>\n                <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.perceptleap.com\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2026-05-25 08:07:31 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&#38;utm_campaign=api.perceptleap.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.perceptleap.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.perceptleap.com</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host",
+        "truncated": true
+      },
+      "elapsed_ms": 1064,
+      "name": "responses_legacy_max_tokens",
+      "classification": "server_error"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/responses",
+      "url": "https://api.perceptleap.com/v1/responses",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "input": [
+          {
+            "role": "user",
+            "content": "Reply OK"
+          }
+        ],
+        "max_output_tokens": 24,
+        "store": false
+      },
+      "started_at": "2026-05-25T08:07:32.225215+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:33 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "1382",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "4881b3fc-d323-4173-bfa9-acabe1b6f939",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Gr1QGipj48N0nw%2FFvjEjgCer1noPCqm9drVZBwx5pXkBmsPWSMOuzBhNY8CFFfGC%2FWaz0SXShfpr4ZECkprdGwdOtAa7Rwl%2Bd8iCtidQKuPZbTpEIUWbOzqOXrKvdbdfoe7sdVmh\"}]}",
+        "cf-ray": "a0130c0e8d5778e4-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "id": "resp_02eba56cebb3c88b016a14034514848199826d911c691b139a",
+          "object": "response",
+          "created_at": 1779696453,
+          "status": "completed",
+          "background": false,
+          "completed_at": 1779696453,
+          "error": null,
+          "frequency_penalty": 0.0,
+          "incomplete_details": null,
+          "instructions": "You are a helpful coding assistant.",
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "moderation": null,
+          "output": [
+            {
+              "type": "message",
+              "role": "assistant",
+              "content": [
+                {
+                  "type": "output_text",
+                  "text": "OK"
+                }
+              ]
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0.0,
+          "previous_response_id": null,
+          "prompt_cache_key": "561f82e8-3e02-4821-90cf-dd95c497a748",
+          "prompt_cache_retention": "24h",
+          "reasoning": {
+            "context": "current_turn",
+            "effort": "none",
+            "summary": null
+          },
+          "safety_identifier": "user-pD4NwKC5wveTDFxZh6N298Et",
+          "service_tier": "default",
+          "store": false,
+          "temperature": 1.0,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tool_usage": {
+            "image_gen": {
+              "input_tokens": 0,
+              "input_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "total_tokens": 0
+            },
+            "web_search": {
+              "num_requests": 0
+            }
+          },
+          "tools": [],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 19,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 5,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 24
+          },
+          "user": null,
+          "metadata": {}
+        }
+      },
+      "elapsed_ms": 1555,
+      "name": "responses_message_array_input",
+      "classification": "success"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/responses",
+      "url": "https://api.perceptleap.com/v1/responses",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "input": "Reply OK",
+        "max_output_tokens": 24,
+        "reasoning": {
+          "effort": "low"
+        },
+        "store": false
+      },
+      "started_at": "2026-05-25T08:07:33.780388+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:35 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "1381",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "f2a47c6c-50d0-4d2c-95ac-14ffc509321d",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=D2SA3bRsaV2cUPfTd%2B5kWPf6W6bXaiV8lPhUQZo%2BgOj8vKE2zuKEUrtt7VDCq0X1ZHb1pF3GQc4vpIl5Wn5%2BHl9v1L8QT7u8dfJSk2iPBA1zFhuBlf0wXw7740hZ%2FhTYUKq82rh0\"}]}",
+        "cf-ray": "a0130c17d94f1f54-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "id": "resp_0a0531bb58d91441016a1403468ccc819b84e304a7b1e663d1",
+          "object": "response",
+          "created_at": 1779696454,
+          "status": "completed",
+          "background": false,
+          "completed_at": 1779696454,
+          "error": null,
+          "frequency_penalty": 0.0,
+          "incomplete_details": null,
+          "instructions": "You are a helpful coding assistant.",
+          "max_output_tokens": null,
+          "max_tool_calls": null,
+          "model": "gpt-5.4-mini-2026-03-17",
+          "moderation": null,
+          "output": [
+            {
+              "type": "message",
+              "role": "assistant",
+              "content": [
+                {
+                  "type": "output_text",
+                  "text": "OK"
+                }
+              ]
+            }
+          ],
+          "parallel_tool_calls": true,
+          "presence_penalty": 0.0,
+          "previous_response_id": null,
+          "prompt_cache_key": "4b5f8e56-1559-4e3c-8400-16aa9e685496",
+          "prompt_cache_retention": "24h",
+          "reasoning": {
+            "context": "current_turn",
+            "effort": "low",
+            "summary": null
+          },
+          "safety_identifier": "user-pD4NwKC5wveTDFxZh6N298Et",
+          "service_tier": "default",
+          "store": false,
+          "temperature": 1.0,
+          "text": {
+            "format": {
+              "type": "text"
+            },
+            "verbosity": "medium"
+          },
+          "tool_choice": "auto",
+          "tool_usage": {
+            "image_gen": {
+              "input_tokens": 0,
+              "input_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "image_tokens": 0,
+                "text_tokens": 0
+              },
+              "total_tokens": 0
+            },
+            "web_search": {
+              "num_requests": 0
+            }
+          },
+          "tools": [],
+          "top_logprobs": 0,
+          "top_p": 0.98,
+          "truncation": "disabled",
+          "usage": {
+            "input_tokens": 19,
+            "input_tokens_details": {
+              "cached_tokens": 0
+            },
+            "output_tokens": 5,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 24
+          },
+          "user": null,
+          "metadata": {}
+        }
+      },
+      "elapsed_ms": 1534,
+      "name": "responses_reasoning_low",
+      "classification": "success"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c",
+      "url": "https://api.perceptleap.com/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:35.315029+00:00",
+      "stream": false,
+      "status": 404,
+      "reason": "Not Found",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:35 GMT",
+        "content-type": "text/plain",
+        "content-length": "18",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "2934cc43-cd89-450d-bef0-5c663d3ade75",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Q4JCyA9r8krxapBN%2FM%2F1OInM2H1Uz1PnlAE0qj7UK8WK9soaYtNgGnVf0QXp%2Bwt8EBy4aFt4Ki7rUfvomji43126uUYFx3e1VXPZxZQH%2BdIJ5AtT4WG6OWavesHVETpvShzATNZb\"}]}",
+        "cf-ray": "a0130c214866c4c6-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 18,
+        "preview": "404 page not found",
+        "truncated": false
+      },
+      "elapsed_ms": 856,
+      "name": "responses_retrieve",
+      "classification": "not_found"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c/input_items",
+      "url": "https://api.perceptleap.com/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c/input_items",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:36.172153+00:00",
+      "stream": false,
+      "status": 404,
+      "reason": "Not Found",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:36 GMT",
+        "content-type": "text/plain",
+        "content-length": "18",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "d8b86a78-0c6f-450b-a92e-d83ba5e4e813",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JYM6r3kIuO%2B2A2c5kL6OC2%2BZ5C2Uncb%2FCcsLU0DN1NzOng6vpxZ94E2%2BUdIjT4uWBEbFbjnLkUJd6nfvdNcI%2FGljPC685G55%2F5qOppg5%2FInLC%2B%2FzUZQRm9NV3eIi1%2F9a7akzeLOO\"}]}",
+        "cf-ray": "a0130c26cd6808cd-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 18,
+        "preview": "404 page not found",
+        "truncated": false
+      },
+      "elapsed_ms": 887,
+      "name": "responses_input_items",
+      "classification": "not_found"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c/cancel",
+      "url": "https://api.perceptleap.com/v1/responses/resp_01b336bc19410dd5016a1402b1609c8199a2e35471c2e1bb2c/cancel",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:37.059930+00:00",
+      "stream": false,
+      "status": 400,
+      "reason": "Bad Request",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:37 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "76",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "ce848540-9531-425a-809b-daabed526199",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4FwrYosQvVYr1gPzqTgZRFFyNGn7LXiev9ryTYDJ0Zir3U2yVwUILqojJeJymvTAjx6uVAaYJLseh0p8K4kA4KGKpNyI59nKYFr7KRb8S4JeCNffv1jmupbQUZwYKpr8qvqC1y%2Bf\"}]}",
+        "cf-ray": "a0130c2c9b01cb82-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "error": {
+            "message": "Request body is empty",
+            "type": "invalid_request_error"
+          }
+        }
+      },
+      "elapsed_ms": 1002,
+      "name": "responses_cancel",
+      "classification": "client_error"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/chat/completions/resp_0afd2d4ee9660d94016a1402bfcfd08199bfcf8f07e37143f3",
+      "url": "https://api.perceptleap.com/v1/chat/completions/resp_0afd2d4ee9660d94016a1402bfcfd08199bfcf8f07e37143f3",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:38.062338+00:00",
+      "stream": false,
+      "status": 404,
+      "reason": "Not Found",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:38 GMT",
+        "content-type": "text/plain",
+        "content-length": "18",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "095e1c82-9557-4714-83ba-2419635fc278",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lcLu6mJhP056rtcgkGm07PsjUCgtAqwOgBDRtaA6K97HFdjLrN3bpebk1NxzDRucipoyQly4QNSWTLM%2FQXK5HIb5vcq9NJTB2ZmltBBA8ZthhdDdwZzan52l3MeMORKa4lgCB2Xr\"}]}",
+        "cf-ray": "a0130c327cff2f4a-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 18,
+        "preview": "404 page not found",
+        "truncated": false
+      },
+      "elapsed_ms": 866,
+      "name": "chat_retrieve",
+      "classification": "not_found"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/chat/completions/resp_0afd2d4ee9660d94016a1402bfcfd08199bfcf8f07e37143f3/messages",
+      "url": "https://api.perceptleap.com/v1/chat/completions/resp_0afd2d4ee9660d94016a1402bfcfd08199bfcf8f07e37143f3/messages",
+      "request_body": null,
+      "started_at": "2026-05-25T08:07:38.928340+00:00",
+      "stream": false,
+      "status": 404,
+      "reason": "Not Found",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:39 GMT",
+        "content-type": "text/plain",
+        "content-length": "18",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "d464056e-f7bc-4a41-bbc4-6c75c50a913e",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bgHDrhekisrVhK51GiwnNRq8P6rxcb6zUERYEh9uM7ZscqDaS4PjcrE%2BWKm44V1KMVqz8%2FMTcS7kMiBM0aNReKaTfzTPuhpHEZUmKJTG7%2FSj3lUQks5R0PgCxSxsTBdrF%2B88Kd%2Fy\"}]}",
+        "cf-ray": "a0130c37ecb1b8d4-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "text_or_binary",
+        "bytes": 18,
+        "preview": "404 page not found",
+        "truncated": false
+      },
+      "elapsed_ms": 874,
+      "name": "chat_messages",
+      "classification": "not_found"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/chat/completions",
+      "url": "https://api.perceptleap.com/v1/chat/completions",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "What color is this one pixel image? Answer briefly."
+              },
+              {
+                "type": "image_url",
+                "image_url": {
+                  "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="
+                }
+              }
+            ]
+          }
+        ],
+        "max_completion_tokens": 48
+      },
+      "started_at": "2026-05-25T08:07:39.803085+00:00",
+      "stream": false,
+      "status": 400,
+      "reason": "Bad Request",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:40 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "155",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "9bba888a-c12e-4e60-8b80-efc82a126693",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X8E5k5r3AgB%2BIFJAJmZH80e%2BH2uJdc0yrWQKYtLE7j2ZkCAGrOav0wMGbA0d2JL9jku05h02FF8iK3U5cwJNWTrtjX%2FG6nlDMo47%2BXhA0dZJqeld4GEBL5E3P8ftILvp%2ByvWLa5H\"}]}",
+        "cf-ray": "a0130c3eb939da6c-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "error": {
+            "message": "The image data you provided does not represent a valid image. Please check your input and try again.",
+            "type": "invalid_request_error"
+          }
+        }
+      },
+      "elapsed_ms": 1347,
+      "name": "chat_vision_data_url",
+      "classification": "client_error"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/chat/completions",
+      "url": "https://api.perceptleap.com/v1/chat/completions",
+      "request_body": {
+        "model": "gpt-5.4-mini",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Reply OK"
+          }
+        ],
+        "max_completion_tokens": 24,
+        "reasoning_effort": "low"
+      },
+      "started_at": "2026-05-25T08:07:41.150190+00:00",
+      "stream": false,
+      "status": 200,
+      "reason": "OK",
+      "headers": {
+        "date": "Mon, 25 May 2026 08:07:42 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "297",
+        "connection": "close",
+        "server": "cloudflare",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-request-id": "cd6412e4-6784-4e0f-9e44-b21b79738b57",
+        "cf-cache-status": "DYNAMIC",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=reihsx2ZMtQXTGuwnDcg0bo1T5FdFiViddoZFvRIopeiN8Mc19Ae%2Fd%2BQOnhTeoXz4L47%2FpvebUJ9HmRUd9ZZOFB3bZHvzf4oGw15eGvYISb1KmXKW1SWoivx8ljZEAGCl5%2BO3t0Y\"}]}",
+        "cf-ray": "a0130c45fa042a97-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "body": {
+        "kind": "json",
+        "json": {
+          "id": "resp_03c11386b0b506bd016a14034df4c4819ba84d2a35fc1739d9",
+          "object": "chat.completion",
+          "created": 1779696462,
+          "model": "gpt-5.4-mini",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "OK"
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 19,
+            "completion_tokens": 5,
+            "total_tokens": 24
+          }
+        }
+      },
+      "elapsed_ms": 1510,
+      "name": "chat_reasoning_effort",
+      "classification": "success"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "responses_vision_gpt-5.5",
+    "status": 200,
+    "elapsed_ms": 3001,
+    "curl_rc": 0,
+    "output_types": [
+      "message"
+    ],
+    "text": "A portrait painting of a seated woman in a striped red-and-blue blouse and blue polka-dot skirt, holding flowers."
+  },
+  {
+    "name": "responses_vision_gpt-5.4",
+    "status": 200,
+    "elapsed_ms": 7985,
+    "curl_rc": 0,
+    "output_types": [
+      "message"
+    ],
+    "text": "A painted portrait of a seated young woman in a striped top and blue patterned skirt, holding flowers."
+  },
+  {
+    "name": "responses_vision_gpt-5.4-mini",
+    "status": 200,
+    "elapsed_ms": 1883,
+    "curl_rc": 0,
+    "output_types": [
+      "message"
+    ],
+    "text": "A painted portrait of a seated woman in a striped dress."
+  },
+  {
+    "name": "responses_vision_gpt-4.1-mini",
+    "status": 502,
+    "elapsed_ms": 1109,
+    "curl_rc": 0,
+    "payload_preview": "error code: 502\n"
+  },
+  {
+    "name": "chat_vision_gpt-5.5",
+    "status": 200,
+    "elapsed_ms": 8910,
+    "curl_rc": 0,
+    "chat_content": "A painted portrait of a seated young woman in a striped red blouse and blue polka-dot skirt, holding flowers."
+  },
+  {
+    "name": "chat_vision_gpt-5.4",
+    "status": 200,
+    "elapsed_ms": 3075,
+    "curl_rc": 0,
+    "chat_content": "A painted portrait of a seated woman in a striped blouse and blue patterned skirt, holding flowers."
+  },
+  {
+    "name": "chat_vision_gpt-5.4-mini",
+    "status": 200,
+    "elapsed_ms": 2520,
+    "curl_rc": 0,
+    "chat_content": "A painted portrait of a seated woman in a striped dress."
+  },
+  {
+    "name": "chat_vision_gpt-4.1-mini",
+    "status": 400,
+    "elapsed_ms": 1158,
+    "curl_rc": 0,
+    "error": {
+      "type": "invalid_request_error",
+      "message": "The 'gpt-4.1-mini' model is not supported when using Codex with a ChatGPT account."
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "method": "POST",
+  "path": "/v1/chat/completions",
+  "url": "https://api.perceptleap.com/v1/chat/completions",
+  "request_body": {
+    "model": "gpt-5.4-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "What color is this image? Reply in two words."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVR42mP8z8AABQMBgA9qC1cAAAAASUVORK5CYII="
+            }
+          }
+        ]
+      }
+    ],
+    "max_completion_tokens": 48
+  },
+  "started_at": "2026-05-25T08:10:48.997797+00:00",
+  "stream": false,
+  "status": 400,
+  "reason": "Bad Request",
+  "headers": {
+    "date": "Mon, 25 May 2026 08:10:49 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "155",
+    "connection": "close",
+    "server": "cloudflare",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-request-id": "2ed5b2e2-8ef0-45b2-a465-f77fb995b814",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jHK8egBSu0PL1pIp90PDMmijK86vtAY4T%2FmDc0i0aHvcEx5xx5RvqXIUjIwlzh4FRaCd60RpJwu7At%2FnhqUXGEXIyPv3UiA%2F%2FWTjAT%2FhwW6PRDR77bVY%2FGXbgdgaFt4XNjww1356\"}]}",
+    "cf-ray": "a01310dc7b4429a5-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": {
+    "kind": "json",
+    "json": {
+      "error": {
+        "message": "The image data you provided does not represent a valid image. Please check your input and try again.",
+        "type": "invalid_request_error"
+      }
+    }
+  },
+  "elapsed_ms": 1192,
+  "name": "chat_vision_valid_png",
+  "classification": "client_error"
+}

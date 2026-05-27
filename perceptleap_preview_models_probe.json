@@ -1,0 +1,109 @@
+{
+  "key": "<REDACTED_API_KEY>",
+  "results": [
+    {
+      "model": "gpt-4-turbo-preview",
+      "endpoint": "chat",
+      "status": 400,
+      "content_type": "application/json; charset=utf-8",
+      "elapsed_ms": 1170,
+      "summary": {
+        "keys": [
+          "error"
+        ],
+        "error": {
+          "message": "The 'gpt-4-turbo-preview' model is not supported when using Codex with a ChatGPT account.",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "model": "gpt-4-turbo-preview",
+      "endpoint": "responses",
+      "status": 502,
+      "content_type": "text/plain; charset=UTF-8",
+      "elapsed_ms": 1193,
+      "summary": {
+        "preview": "error code: 502"
+      }
+    },
+    {
+      "model": "gpt-4.5-preview",
+      "endpoint": "chat",
+      "status": 400,
+      "content_type": "application/json; charset=utf-8",
+      "elapsed_ms": 992,
+      "summary": {
+        "keys": [
+          "error"
+        ],
+        "error": {
+          "message": "The 'gpt-4.5-preview' model is not supported when using Codex with a ChatGPT account.",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "model": "gpt-4.5-preview",
+      "endpoint": "responses",
+      "status": 502,
+      "content_type": "text/plain; charset=UTF-8",
+      "elapsed_ms": 1093,
+      "summary": {
+        "preview": "error code: 502"
+      }
+    },
+    {
+      "model": "gpt-4o-audio-preview",
+      "endpoint": "chat",
+      "status": 400,
+      "content_type": "application/json; charset=utf-8",
+      "elapsed_ms": 998,
+      "summary": {
+        "keys": [
+          "error"
+        ],
+        "error": {
+          "message": "The 'gpt-4o-audio-preview' model is not supported when using Codex with a ChatGPT account.",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "model": "gpt-4o-audio-preview",
+      "endpoint": "responses",
+      "status": 502,
+      "content_type": "text/plain; charset=UTF-8",
+      "elapsed_ms": 1005,
+      "summary": {
+        "preview": "error code: 502"
+      }
+    },
+    {
+      "model": "gpt-4o-realtime-preview",
+      "endpoint": "chat",
+      "status": 400,
+      "content_type": "application/json; charset=utf-8",
+      "elapsed_ms": 1045,
+      "summary": {
+        "keys": [
+          "error"
+        ],
+        "error": {
+          "message": "The 'gpt-4o-realtime-preview' model is not supported when using Codex with a ChatGPT account.",
+          "type": "invalid_request_error"
+        }
+      }
+    },
+    {
+      "model": "gpt-4o-realtime-preview",
+      "endpoint": "responses",
+      "status": 502,
+      "content_type": "text/plain; charset=UTF-8",
+      "elapsed_ms": 1017,
+      "summary": {
+        "preview": "error code: 502"
+      }
+    }
+  ]
+}

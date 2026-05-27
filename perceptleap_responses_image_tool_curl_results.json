@@ -1,0 +1,68 @@
+[
+  {
+    "model": "gpt-5.5",
+    "status": 200,
+    "elapsed_ms": 14999,
+    "curl_rc": 0,
+    "output_types": [
+      "image_generation_call"
+    ],
+    "image_call_keys": [
+      "action",
+      "background",
+      "id",
+      "output_format",
+      "quality",
+      "result",
+      "revised_prompt",
+      "size",
+      "status",
+      "type"
+    ],
+    "result_len": 60608
+  },
+  {
+    "model": "gpt-5.4",
+    "status": 200,
+    "elapsed_ms": 15899,
+    "curl_rc": 0,
+    "output_types": [
+      "image_generation_call"
+    ],
+    "image_call_keys": [
+      "action",
+      "background",
+      "id",
+      "output_format",
+      "quality",
+      "result",
+      "revised_prompt",
+      "size",
+      "status",
+      "type"
+    ],
+    "result_len": 64188
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "status": 200,
+    "elapsed_ms": 14851,
+    "curl_rc": 0,
+    "output_types": [
+      "image_generation_call"
+    ],
+    "image_call_keys": [
+      "action",
+      "background",
+      "id",
+      "output_format",
+      "quality",
+      "result",
+      "revised_prompt",
+      "size",
+      "status",
+      "type"
+    ],
+    "result_len": 69940
+  }
+]

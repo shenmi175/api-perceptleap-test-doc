@@ -1,0 +1,35 @@
+[
+  {
+    "model": "gpt-image-2",
+    "status": 200,
+    "elapsed_ms": 13830,
+    "curl_rc": 0,
+    "data0_keys": [
+      "b64_json",
+      "revised_prompt"
+    ],
+    "b64_len": 65404
+  },
+  {
+    "model": "gpt-image-1.5",
+    "status": 200,
+    "elapsed_ms": 13199,
+    "curl_rc": 0,
+    "data0_keys": [
+      "b64_json",
+      "revised_prompt"
+    ],
+    "b64_len": 71140
+  },
+  {
+    "model": "gpt-image-1",
+    "status": 200,
+    "elapsed_ms": 14129,
+    "curl_rc": 0,
+    "data0_keys": [
+      "b64_json",
+      "revised_prompt"
+    ],
+    "b64_len": 65872
+  }
+]
