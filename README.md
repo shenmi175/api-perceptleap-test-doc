@@ -1,5 +1,8 @@
 # PerceptLeap / sub2api API 兼容性与使用说明（中文版）
 
+由于部分用户涉嫌违法调用api，目前已经开启邀请注册
+向zmb1227@gmail.com发送邮件经过审批后获取邀请码
+
 - 测试服务：`https://api.perceptleap.com`
 - 测试日期：`2026-05-25`
 - 测试 Key：`<REDACTED_API_KEY>`（已脱敏，文档中不保存完整密钥）
